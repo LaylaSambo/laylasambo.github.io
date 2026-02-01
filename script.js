@@ -14,6 +14,8 @@ function setPage(pageId) {
     pageText.innerHTML = pages[pageId];
 }
 
+setPage('btn1');
+
 buttons.forEach(button => {
     button.addEventListener('mouseenter', () => {
         hoverSound.currentTime = 0;
