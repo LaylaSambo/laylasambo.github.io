@@ -97,7 +97,7 @@ body {
 }
 
 .shell-btn {
-    width: 55px;
+    width: 100px;
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease, filter 0.3s ease;
