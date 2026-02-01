@@ -5,25 +5,27 @@ const pageText = document.getElementById('page-text');
 
 const pages = {
     btn1: `
-    <h1>Hii, I'm Layla and welcome to my website!</h1>
+    <h1>Hii, I'm Layla!</h1>
     <p>
-        I'm a Computer Science student who is way more into the 
-        <strong>creative</strong> side of tech. I’ve always been drawn to the 
-        creative side of technology— I don't just want to write code; I want to 
-        create interactive experiences.
+        I am a Computer Science student driven by the goal of building software 
+        that people actually enjoy using. My interest lies in creating 
+        <strong>functional programs</strong> that improve daily convenience 
+        and <strong>interactive games</strong> that provide engaging experiences.
     </p>
     <p>
-        I’m currently focusing on <strong>Software Engineering</strong> 
-        and <strong>Game Dev</strong>. I love the challenge of making 
-        code work, but I love making it look good even more.
+        Currently, I am developing my skills in <strong>Software Engineering</strong> 
+        and <strong>Game Development</strong>. I enjoy the process of solving 
+        technical problems through code, while ensuring the end result is 
+        intuitive and visually polished.
     </p>
     <p>
-        <strong>Fun fact:</strong> I actually drew and designed everything 
-        you see on this site! From the icons and buttons to the layout—it’s 
-        all my own art. I don't have a giant portfolio yet, but I'm 
-        starting here by merging my art with my code.
+        <strong>Fun fact:</strong> I designed and drew every asset on this 
+        website, including the icons, UI components, and backgrounds. This 
+        portfolio serves as my first project where I am practicing the 
+        integration of <strong>original digital art</strong> with 
+        <strong>program logic</strong>.
     </p>`,
-    
+
     btn2: `<h1>Projects</h1><p>Work in progress....... </p>`,
     btn3: `<h1>Exp</h1><p>My skills and experience here</p>`,
     btn4: `<h1>Contact</h1><p>Feel free to reach out!</p>`
