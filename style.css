@@ -51,6 +51,13 @@ body {
     display: none;
     }
 
+    .white-box-content h1, 
+    .white-box-content p {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    }
+
 /*warning for mobile screens*/
 
 .mobile-warning {
