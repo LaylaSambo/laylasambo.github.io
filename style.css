@@ -94,15 +94,15 @@ body {
     flex-direction: row;     
     flex-wrap: nowrap;       
     justify-content: center;  
-    gap: 30px;               
+    gap: 15px;               
     padding: 30px 0;
     z-index: 10;
     width: 100%;
 }
 
 .shell-btn {
-    width: 100px;
-    min-width: 100px;
+    width: 22%px;
+    max-width: 250px;
     height: auto;
     flex-shrink: 0;
     object-fit: contain;
