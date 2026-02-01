@@ -45,6 +45,10 @@ body {
      -ms-user-select: none; 
     cursor: default;
     border: 2px solid black;
+    scrollbar-width: none;
+    }
+    .white-box-content::-webkit-scrollbar {
+    display: none;
     }
 
 /*warning for mobile screens*/
