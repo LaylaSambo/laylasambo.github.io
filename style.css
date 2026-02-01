@@ -105,7 +105,7 @@ body {
     width: 250px;
     height: auto;
     flex-shrink: 0;
-    margin: 0 -30px;
+    margin: 0 -70px;
     cursor: pointer;
     transition: transform 0.3s ease, filter 0.3s ease;
 }
