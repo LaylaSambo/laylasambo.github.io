@@ -35,7 +35,7 @@ body {
     left: 6.35%;     
     width: 53.5%;   
     height: 89%;  
-    padding: 40px;
+    padding: 0px;
     box-sizing: border-box;
     overflow-y: auto;
     color: #333;
@@ -90,7 +90,7 @@ body {
 }
 
 .shell-btn {
-    width: 70px;
+    width: 55px;
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease, filter 0.3s ease;
