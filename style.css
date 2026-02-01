@@ -87,15 +87,18 @@ body {
 
 /*buttons*/
 .button-header {
-    position: relative;
-    width: 100%;
+    position: absolute;
+    top: 5%;
+    left: 6.35%;
+    width: 53.5%;
     display: flex;
     flex-direction: row;
     justify-content: center; 
     align-items: center;
     gap: 60px;              
     padding: 20px 0;
-    z-index: 10;
+    z-index: 100;
+    pointer-events: none;
 }
 
 .shell-btn {
@@ -103,7 +106,8 @@ body {
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease, filter 0.3s ease;
-    flex-shrink: 0;        
+    flex-shrink: 0;   
+    pointer-events: auto;     
 }
 
 .shell-btn:hover {

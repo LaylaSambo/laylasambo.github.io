@@ -40,5 +40,6 @@ buttons.forEach(button => {
     button.addEventListener('click', () => {
         clickSound.currentTime = 0;
         clickSound.play();
+        setPage(e.target.id);
     });
 });
