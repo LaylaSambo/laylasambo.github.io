@@ -9,7 +9,13 @@ body {
 
     background-repeat: no-repeat;
 
-    background-color: red;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+
+    overflow: hidden;
+
+    background-color: rgb(51, 255, 0);
     
     margin: 0;
     padding: 0;
