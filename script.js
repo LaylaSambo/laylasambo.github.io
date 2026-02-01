@@ -8,25 +8,6 @@ const pages = {
     btn1: `
         <h1>About Me!</h1>
         <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        <p>yapper yapp yap about myself and intro to hobbies n stuff</p>
-        
     `,
     btn2: `
         <h1>Projects</h1>
