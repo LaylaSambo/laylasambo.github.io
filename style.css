@@ -44,7 +44,7 @@ body {
     -webkit-user-select: none; 
      -ms-user-select: none; 
     cursor: default;
-    border: 2px solid rgb(252, 252, 252);
+    border: 0px;
     scrollbar-width: none;
     }
     .white-box-content::-webkit-scrollbar {
