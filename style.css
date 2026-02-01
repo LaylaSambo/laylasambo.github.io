@@ -14,33 +14,3 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-
-.ui-layer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('./assests/box.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    pointer-events: none; 
-    z-index: 10;
-}
-
-.scroll-area {
-    position: absolute;
-    top: 25%; 
-    left: 30%;
-    width: 40%;
-    height: 50%;
-    overflow-y: auto;
-    color: white;
-    z-index: 5;
-    padding: 10px;
-}
-
-.scroll-area::-webkit-scrollbar {
-    display: none;
-}
