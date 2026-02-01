@@ -2,15 +2,17 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh; 
     overflow: hidden !important; 
     position: fixed; 
 }
 
 body {
     background-image: url('./assests/beach-bg.png'); 
-    background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
+    
+    
+    background-attachment: fixed; 
 }
