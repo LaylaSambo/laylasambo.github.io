@@ -9,8 +9,8 @@ const pages = {
     <p>
         I am a Computer Science student driven by the goal of building software 
         that people actually enjoy using. My interest lies in creating 
-        <strong>functional programs</strong> that improve daily convenience 
-        and <strong>interactive games</strong> that provide engaging experiences.
+        functional programs that improve daily convenience 
+        and interactive games that provide engaging experiences.
     </p>
     <p>
         Currently, I am developing my skills in <strong>Software Engineering</strong> 
@@ -22,8 +22,7 @@ const pages = {
         <strong>Fun fact:</strong> I designed and drew every asset on this 
         website, including the icons, UI components, and backgrounds. This 
         portfolio serves as my first project where I am practicing the 
-        integration of <strong>original digital art</strong> with 
-        <strong>program logic</strong>.
+        integration of digital art with program logic :).
     </p>`,
 
     btn2: `<h1>Projects</h1><p>Work in progress....... </p>`,
