@@ -1,6 +1,7 @@
 const hoverSound = new Audio('./assets/hover.mp3');
 const clickSound = new Audio('./assets/click.mp3');
 const buttons = document.querySelectorAll('.shell-btn');
+const contentBox = document.querySelector('.white-box-content');
 
 
 const pages = {
