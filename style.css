@@ -1,24 +1,16 @@
-body {
-    background-image: url('./assets/beach-bg.png');
-
-    background-attachment: fixed;
-
-    background-size: cover;
-
-    background-position: center;
-
-    background-repeat: no-repeat;
-
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-
-    overflow: hidden;
-
-    background-color: rgb(51, 255, 0);
-    
+html, body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden !important; 
+    position: fixed; 
+}
 
-
+body {
+    background-image: url('./assests/beach-bg.png'); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
