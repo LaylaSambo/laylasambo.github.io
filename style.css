@@ -9,8 +9,10 @@ body {
 
     background-repeat: no-repeat;
 
-    background-color: #f0f8ff; 
+    background-color: red !important;
     
     margin: 0;
     padding: 0;
+
+
 }
