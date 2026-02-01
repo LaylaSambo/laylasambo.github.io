@@ -2,17 +2,34 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh; 
-    overflow: hidden !important; 
-    position: fixed; 
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('./assets/box.png');
+    background-size: cover;
+    background-position: center;
 }
 
-body {
-    background-image: url('./assests/beach-bg.png'); 
-    background-size: cover; 
+.ui-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/'); 
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    pointer-events: none; 
+}
+
+.scroll-content {
+    position: absolute;
+    top: 20%; 
+    left: 25%;
+    width: 50%; 
+    height: 60%;
     
-    
-    background-attachment: fixed; 
+    overflow-y: auto; 
+    pointer-events: all; 
+    padding: 20px;
+    color: white;
 }
