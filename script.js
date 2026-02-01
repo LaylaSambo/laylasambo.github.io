@@ -3,7 +3,7 @@ const clickSound = new Audio('./assets/click.mp3');
 const buttons = document.querySelectorAll('.shell-btn');
 const contentBox = document.querySelector('.white-box-content');
 
-
+/*
 const pages = {
     btn1: `
         <h1>About Me!</h1>
@@ -26,7 +26,7 @@ const pages = {
 function setPage(pageId) {
     contentBox.innerHTML = pages[pageId];
 }
-
+*/
 
 
 
