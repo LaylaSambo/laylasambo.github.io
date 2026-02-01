@@ -15,6 +15,22 @@ body {
     background-repeat: no-repeat;
 }
 
+
+.screen-container {
+    position: relative;
+    display: inline-block;
+    width: 1200px;
+}
+
+
+.background-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    user-select: none; 
+    -webkit-user-drag: none;
+}
+
 /*warning for mobile screens*/
 
 .mobile-warning {
@@ -39,6 +55,24 @@ body {
     .desktop-content {
         display: none;
     }
+}
+
+.white-box-content {
+    position: absolute;
+    top: 4.7%;      
+    left: 6.35%;     
+    width: 53.5%;   
+    height: 89%;  
+    padding: 0; /* Set to 0 so the sticky header sits flush at the top */
+    box-sizing: border-box;
+    overflow-y: auto;
+    color: #333;
+    font-family: sans-serif;
+    user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    cursor: default;
+    scrollbar-width: none; 
 }
 
 .button-header {
