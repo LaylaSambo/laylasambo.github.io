@@ -2,34 +2,45 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    background-image: url('./assets/beach-bg.png');
-    background-size: cover;
-    background-position: center;
+    height: 100%;
+    overflow: hidden !important; 
+    position: fixed; 
 }
 
-.ui-box {
+body {
+    background-image: url('./assests/beach-bg.png'); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ui-layer {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('./assets/box.png'); 
+    background-image: url('./assests/box.png');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     pointer-events: none; 
+    z-index: 10;
 }
 
-.scroll-content {
+.scroll-area {
     position: absolute;
-    top: 20%; 
-    left: 25%;
-    width: 50%; 
-    height: 60%;
-    
-    overflow-y: auto; 
-    pointer-events: all; 
-    padding: 20px;
+    top: 25%; 
+    left: 30%;
+    width: 40%;
+    height: 50%;
+    overflow-y: auto;
     color: white;
+    z-index: 5;
+    padding: 10px;
+}
+
+.scroll-area::-webkit-scrollbar {
+    display: none;
 }
