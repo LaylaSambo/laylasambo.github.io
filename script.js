@@ -4,7 +4,7 @@ const buttons = document.querySelectorAll('.shell-btn');
 const pageText = document.getElementById('page-text');
 
 const pages = {
-    btn1: `<h1>About Me!</h1><p>yapper yapp yap about myself...</p>`,
+    btn1: `<h1>About Me!</h1><p>yapperr yapp yap about myself...</p>`,
     btn2: `<h1>Projects</h1><p>Work in progress....... </p>`,
     btn3: `<h1>Exp</h1><p>My skills and experience here</p>`,
     btn4: `<h1>Contact</h1><p>Feel free to reach out!</p>`
