@@ -8,14 +8,33 @@
     <link rel="icon" type="asset/favicon-32x32" href="./assets/favicon-32x32.png">
 
     <style>
-        div.fixed {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 300px;
-        height: 200px;
-        border: 3px solid #000000;
-        }
+    .screen-container {
+        position: relative;
+        display: inline-block;
+        width: 1200px;
+    }
+
+    .background-img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .white-box-content {
+        position: absolute;
+        
+        top: 5%;      
+        left: 5%;     
+        width: 53%;   
+        height: 88%;  
+
+        padding: 20px;
+        box-sizing: border-box;
+        overflow-y: auto;
+        
+        color: #333;
+        font-family: sans-serif;
+    }
     </style>
 
 </head>
@@ -28,11 +47,14 @@
     <img width="1200px" src="./assets/box2.png">
     
     <div class="desktop-content">
-        <h1 style="color: white; text-shadow: 2px 2px 4px #000;">Hello!</h1>
-    </div>
-
-    <div class="fixed">
-        <p>test testtttttt</p>
+        <div class="screen-container">
+            <img src="./assets/box2.png" class="background-img">
+            
+            <div class="white-box-content">
+                <h1 style="text-shadow: 2px 2px 4px rgba(0,0,0,0.1);">Hello!</h1>
+                <p>test testtttttt</p>
+            </div>
+        </div>
     </div>
 
     
