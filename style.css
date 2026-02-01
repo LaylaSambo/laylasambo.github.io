@@ -39,7 +39,7 @@ body {
     box-sizing: border-box;
     overflow-y: auto;
     color: #333;
-    font-family: sans-serif;
+    font-family: 'Fuzzy Bubbles' sans-serif;
     user-select: none; 
     -webkit-user-select: none; 
      -ms-user-select: none; 
@@ -109,4 +109,22 @@ body {
 .shell-btn:hover {
     transform: scale(1.2);
     filter: drop-shadow(0 0 10px gold);
+}
+
+/*PAGE 1*/
+#page-text h1 {
+    font-family: 'Fuzzy Bubbles', sans-serif;
+    text-align: center;
+    color: #ffa51f; 
+    font-size: 2.8rem;
+    margin-top: 40px;
+}
+
+#page-text p {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 0 40px;
+    color: #6dd3ff; 
 }
