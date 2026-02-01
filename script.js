@@ -27,7 +27,7 @@ function setPage(pageId) {
     contentBox.innerHTML = pages[pageId];
 }
 
-setPage('btn1');
+
 
 
 
