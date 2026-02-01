@@ -93,7 +93,7 @@ body {
     flex-direction: row;
     justify-content: center; 
     align-items: center;
-    gap: 30px;              
+    gap: 60px;              
     padding: 20px 0;
     z-index: 10;
 }
