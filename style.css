@@ -111,23 +111,7 @@ body {
     filter: drop-shadow(0 0 10px gold);
 }
 
-/*PAGE 1*/
-#page-text h1 {
-    font-family: 'Fuzzy Bubbles', sans-serif;
-    text-align: center;
-    color: #ffa51f; 
-    font-size: 2.8rem;
-    margin-top: 40px;
-}
 
-#page-text p {
-    font-family: 'Nunito', sans-serif;
-    text-align: left;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    padding: 0 40px;
-    color: #6dd3ff; 
-}
 
 
 /*CRAB*/
@@ -145,3 +129,22 @@ body {
     user-select: none;
     -webkit-user-drag: none;
 }
+
+/*PAGE STYLING*/
+#page-text h1 {
+    font-family: 'Fuzzy Bubbles', sans-serif;
+    text-align: center;
+    color: #ffa51f; 
+    font-size: 2.8rem;
+    margin-top: 40px;
+}
+
+#page-text p {
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 0 40px;
+    color: #6dd3ff; 
+}
+

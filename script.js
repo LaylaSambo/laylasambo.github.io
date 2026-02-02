@@ -28,9 +28,18 @@ const pages = {
         integration of digital art with program logic :).
     </p>`,
 
-    btn2: `<h1>Projects</h1><p>Work in progress....... </p>`,
-    btn3: `<h1>Exp</h1><p>My skills and experience here</p>`,
-    btn4: `<h1>Contact</h1><p>Feel free to reach out!</p>`
+    btn2: `
+    <h1>Experience</h1>
+    <p>My skills and experience here</p>
+    `,
+    btn3: `
+    <h1>Projects</h1>
+    <p>Work in progress...</p>
+    `,
+    btn4: `
+    <h1>Contact</h1>
+    <p>Feel free to reach out!</p>
+    `
 };
 
 function setPage(pageId) {
