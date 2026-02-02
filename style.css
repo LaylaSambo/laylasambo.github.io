@@ -128,3 +128,20 @@ body {
     padding: 0 40px;
     color: #6dd3ff; 
 }
+
+
+/*CRAB*/
+#crab-container {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#crab-button {
+    width: 110px;
+    height: auto;
+    user-select: none;
+    -webkit-user-drag: none;
+}

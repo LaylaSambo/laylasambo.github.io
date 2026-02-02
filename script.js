@@ -2,6 +2,9 @@ const hoverSound = new Audio('./assets/hover.mp3');
 const clickSound = new Audio('./assets/click.mp3');
 const buttons = document.querySelectorAll('.shell-btn');
 const pageText = document.getElementById('page-text');
+const crab = document.getElementById('crab-button');
+const music = document.getElementById('crab-music');
+
 
 const pages = {
     btn1: `
@@ -47,4 +50,30 @@ buttons.forEach(button => {
         clickSound.play();
         setPage(e.currentTarget.id);
     });
+});
+
+
+/*crab*/
+let isDancing = false;
+let danceTimer = null;
+
+crab.addEventListener('click', () => {
+    if (!isDancing) {
+        isDancing = true;
+        music.play();
+
+        let currentFrame = 2;
+        danceTimer = setInterval(() => {
+            crab.src = `./assets/crab${currentFrame}.png`;
+            currentFrame = currentFrame === 2 ? 3 : 2;
+        }, 300); 
+
+    } else {
+        isDancing = false;
+        music.pause();
+        music.currentTime = 0; 
+        
+        clearInterval(danceTimer);
+        crab.src = './assets/crab1.png';
+    }
 });
