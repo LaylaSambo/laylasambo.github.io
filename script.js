@@ -24,7 +24,7 @@ const pages = {
     <p>
         <strong>Fun fact:</strong> I designed and drew every asset on this 
         website, including the icons, UI components, and backgrounds. This 
-        portfolio serves as my first project where I am practicing the 
+        website serves as my first project where I am practicing the 
         integration of digital art with program logic :).
     </p>`,
 
