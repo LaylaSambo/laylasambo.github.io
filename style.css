@@ -130,6 +130,17 @@ body {
     -webkit-user-drag: none;
 }
 
+/*CONTACT*/
+#contact-button {
+    width: 200px;
+    top: 50px;
+    right: 100px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-drag: none;
+
+}
+
 /*PAGE STYLING*/
 #page-text h1 {
     font-family: 'Fuzzy Bubbles', sans-serif;
